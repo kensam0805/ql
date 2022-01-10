@@ -12,7 +12,7 @@ ttlhd=''    多账号@隔开
 
 
 [task_local]
-20 0 * * * http://47.101.146.160/scripts/tttl.js, tag=太太乐, img-url=circles.hexagongrid.fill.system, enabled=true
+20 0 * * * https://github.com/kensam0805/ql/edit/main/tttl.js, tag=太太乐, img-url=circles.hexagongrid.fill.system, enabled=true
 */
 
 
@@ -47,7 +47,7 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
           $.index = i + 1;
         
           console.log(`\n开始【太太乐${$.index}】`)
-          console.log(`第一次注册必须先登录一次小程序绑定微信然后用接口\n不会抓包的手残智力障碍的接口获取token\nhttp://47.101.146.160/ttl.php?zh=手机号码&mm=密码\n如需换话费 下载太太乐APP积分兑换话费\n如果没库存了 自己隔天再看`)
+          console.log(`第一次注册必须先登录一次小程序绑定微信然后用接口\n不会抓包的手残智力障碍的接口获取token\nhttps://www.ttljf.com/ttl_site/user.do?username= ÷ª˙∫≈&password=√‹¬Î&device_brand=apple&device_model=iPhone11,8&device_uuid=&device_version=13.5&mthd=login&platform=ios&sign=\n如需换话费 下载太太乐APP积分兑换话费\n如果没库存了 自己隔天再看`)
          
 await sign()
 await blog()
@@ -73,7 +73,7 @@ await my()
                 $.index = k + 1;
  
           console.log(`\n开始【太太乐${$.index}】`)
-          console.log(`第一次注册必须先登录一次小程序绑定微信然后用接口\n不会抓包的手残智力障碍的接口获取token\nhttp://47.101.146.160/ttl.php?zh=手机号码&mm=密码\n如需换话费 下载太太乐APP积分兑换话费\n如果没库存了 自己隔天再看`)
+          console.log(`第一次注册必须先登录一次小程序绑定微信然后用接口\获取token https://www.ttljf.com/ttl_site/user.do?username= ÷ª˙∫≈&password=√‹¬Î&device_brand=apple&device_model=iPhone11,8&device_uuid=&device_version=13.5&mthd=login&platform=ios&sign=\n如需换话费 下载太太乐APP积分兑换话费\n如果没库存了 自己隔天再看`)
           await kcjk(633)
           await kcjk(631)
           await kcjk(62)
